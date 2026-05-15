@@ -117,6 +117,22 @@ Default URLs:
 - Dashboard: `http://localhost:20128/dashboard`
 - OpenAI-compatible API: `http://localhost:20128/v1`
 
+### Python migration (work in progress)
+
+This repository is being migrated module-by-module to Python on branch `js-to-python-migration`.
+
+- Python project metadata: `pyproject.toml`
+- Python package root: `pyrouter/`
+- Python tests: `tests_py/`
+- Migration tracker and JS→Python mapping: `MIGRATION_STATUS.md`
+
+Run Python tests:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pytest
+```
+
 ---
 
 ## Video Guides
